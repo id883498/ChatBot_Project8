@@ -1,4 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {}
+  "name": "Python Console ChatBot",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "postCreateCommand": "pip install -r requirements.txt"
 }
